@@ -1,0 +1,25 @@
+[build-system]
+requires = ["setuptools>=61.0"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "gendocuagent"
+version = "1.0.0"
+description = "AST-powered multi-agent CLI for scanning GenAI codebases and auto-generating portfolio-ready READMEs, ARCHITECTURE docs, and validated Mermaid.js diagrams."
+authors = [{ name = "AI Studio Engineer" }]
+readme = "README.md"
+requires-python = ">=3.10"
+dependencies = [
+    "typer>=0.12.0",
+    "pydantic>=2.6.0",
+    "rich>=13.7.0",
+]
+
+[project.optional-dependencies]
+dev = [
+    "pytest>=8.0.0",
+    "ruff>=0.3.0",
+]
+
+[project.scripts]
+docugen = "docugen.cli:app"

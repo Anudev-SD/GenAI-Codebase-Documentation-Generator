@@ -1,0 +1,7 @@
+{
+  "name": "GenDocuAgent - AI Codebase Scanner & Documentation Pipeline",
+  "description": "Python CLI tool and interactive studio powered by Typer, Pydantic v2, and multi-agent AST ingestion pipeline that scans Generative AI codebases to auto-generate portfolio-ready READMEs, ARCHITECTURE.md, and validated Mermaid.js diagrams.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
+

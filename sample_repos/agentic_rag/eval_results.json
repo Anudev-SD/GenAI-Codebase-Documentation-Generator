@@ -1,0 +1,13 @@
+{
+  "benchmark_name": "ragas_triad_v1",
+  "evaluation_date": "2026-10-15T14:30:00Z",
+  "dataset_size": 75,
+  "metrics": {
+    "faithfulness": 0.942,
+    "answer_relevancy": 0.915,
+    "context_precision": 0.884,
+    "context_recall": 0.892,
+    "harm_score": 0.012,
+    "p95_latency_sec": 1.42
+  }
+}
